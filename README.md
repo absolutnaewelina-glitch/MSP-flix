@@ -1,7 +1,4 @@
-# MSP-flix – prototyp na GitHub Pages
-
-Statyczny prototyp katalogu filmów i seriali tworzonych w MovieStarPlanet.
-
+# MSP-flix
 ## Co już działa
 
 - strona główna z nowościami,

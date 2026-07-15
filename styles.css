@@ -24,7 +24,7 @@ nav a:hover { color: var(--accent); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; }
 .card { background: var(--panel); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; transition: transform .2s, border-color .2s; }
 .card:hover { transform: translateY(-3px); border-color: var(--accent-2); }
-.cover { width: 100%; aspect-ratio: 2/3; object-fit: cover; display: block; background: var(--panel-2); }
+.cover { width: 100%; aspect-ratio: 2/2; object-fit: cover; display: block; background: var(--panel-2); }
 .card-body { padding: 1rem; }
 .card h3 { margin: 0 0 .45rem; }
 .meta { color: var(--muted); font-size: .92rem; line-height: 1.5; }

@@ -21,9 +21,8 @@ function card(p) {
 function home() {
   const newest = [...productions].sort((a,b) => b.added.localeCompare(a.added));
   app.innerHTML = `<section class="hero">
-    <h1>Filmy i seriale społeczności MSP</h1>
-    <p>Odkrywaj produkcje, zapisuj postęp, oceniaj i dziel się recenzjami.</p>
-    <a class="button" href="#/produkcje">Przeglądaj katalog</a>
+    <h1>Filmy i seriale Filmowców MSP</h1>
+    <a class="button" href="#/produkcje">Przeglądaj</a>
   </section>
   <div class="section-head"><h2>Nowości</h2><a href="#/produkcje">Zobacz wszystkie →</a></div>
   <div class="grid">${newest.map(card).join('')}</div>`;
